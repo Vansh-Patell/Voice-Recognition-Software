@@ -11,7 +11,7 @@ print("Recording Audio...")
 # Start capturing audio
 while True:
     data = stream.read(1024)  # Adjust the buffer size as needed
-    # Process or analyze the audio data here
+    # Process the audio here
 
 # Close the stream and PyAudio
 stream.stop_stream()
